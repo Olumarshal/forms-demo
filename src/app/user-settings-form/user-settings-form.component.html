@@ -1,0 +1,68 @@
+<div class="container">
+    <h2>User Settings</h2>
+    <form>
+
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" name="name" class="form-control" />
+        </div>
+
+        <div class="form-check form-group">
+            <input class="form-check-input" type="checkbox" value="emailOffers" id="emailOffers">
+            <label class="form-check-label" for="emailOffers">
+                Email Special offers
+            </label>
+        </div>
+
+        <div class="mt-3">
+            <p>User Interface Style</p>
+        </div>
+        <div class="form-group">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="interfacestyle" id="interfacestyle" value="light"
+                    checked>
+                <label class="form-check-label" for="interfacestyle">
+                    Light
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="interfacestyle" id="interfacestyle" value="Medium"
+                    checked>
+                <label class="form-check-label" for="interfacestyle">
+                    Medium
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="interfacestyle" id="interfacestyle" value="Dark"
+                    checked>
+                <label class="form-check-label" for="interfacestyle">
+                    Dark
+                </label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="subscriptionType">Subscription Type</label>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Select</option>
+                <option>Monthly</option>
+                <option>Annual</option>
+                <option>Lifetime</option>
+            </select>
+        </div>
+
+        <div class="mb-3 form-group">
+            <label for="notes">Notes</label>
+            <textarea class="form-control" id="notes" rows="3"></textarea>
+        </div>
+
+        <div class="mb-3 form-group">
+            <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+            <input type="password" class="form-control" id="inputPassword">
+        </div>
+
+        <div class="form-group mt-3">
+            <button class="btn btn-primary">Send</button>
+        </div>
+    </form>
+</div>
